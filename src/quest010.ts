@@ -1,0 +1,7 @@
+/*Crie uma função chamada calcularAreaRetangulo que receba largura e altura e retorne a área (largura * altura).*/
+
+function calcularAreaRetangulo(largura: number, altura: number): number{
+    return largura*altura;
+}
+
+console.log(`A área do retângulo é ${calcularAreaRetangulo(4.5, 6).toFixed(2)}`);
